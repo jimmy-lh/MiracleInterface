@@ -1,0 +1,143 @@
+
+
+===================================================================================
+YT2Glu      
+	血糖测试版：这个是bioland的腾讯唐大夫机子用来测试试纸的简用版本。具有串口传输功能
+	医用血糖仪测试版，简化的
+包含以下包：
+	android_serialport_api  //串口通信接口
+	com.miracle.activity.yt2glu  //实现串口通信
+
+注意:已经成为一个独立项目
+===================================================================================
+ConnectivityManager<netjudge>
+	增加网络连接与否的判断;
+包含以下包:
+	com.miracle.netjudge.activity.netjudge
+	activity_net_judge.xml
+	include_main_net_judge.xml
+	
+注意：需要加权限	
+===================================================================================
+listview
+	<commonlist>
+	列表菜单：普通的列表，动态增加item，按键反应等；
+包含以下包：
+	com.miracle.commonlist.activity.listview
+	com.miracle.commonlist.adapter
+	com.miracle.commonlist.adapter.test
+	
+	
+	<expandable>
+	分组固定列表：Android中，大家都用过ListView，ExpandableListView等，也许你还用过PinnedHeaderListView，
+			但是如果我说PinnedHeaderExpandableListView，你听过吗？还有可下拉的PinnedHeaderExpandableListView呢？
+			没听过也不要紧，本文就是介绍这个东西的，为了让大家有更直观的了解，先上效果图。通过效果图可以看出，首先它是一个ExpandableListView，
+			但是它的头部可以固定，其次，在它的上面还有一个头部可以来回伸缩，恩，这就是本文要介绍的自定义view。为了提高复用性，
+			这个效果我分成来了2个view来实现，第一个是PinnedHeaderExpandableListView来实现头部固定的ExpandableListView，
+			第二个view是StickyLayout，这个view具有一个可以上下滑动的头部，最后将这2个view组合在一起，就达到了如下的效果.
+包含以下包：
+	com.miracle.expandable.activity.expandable
+	com.miracle.expandable.view.expandable // 自定义固定header的listview
+		
+===================================================================================		
+NetImage<netimage>
+	增加网络图片获取方法
+包含以下包:
+	com.miracle.netimage.activity.netimage
+	netimage_activity_net_image.xml
+===================================================================================		
+ORMLite<ormlite>
+	增加ORMlite数据库存储
+包含以下包:
+	com.miracle.ormlite.activity.testormlite
+	com.miracle.ormlite.db.bean
+	com.miracle.ormlite.db.dao
+	activity_test_ormlite.xml
+	include_main_test_ormlite.xml
+	
+注意：需要加ormlite-xxx.jar库
+===================================================================================		
+progress
+	<roundprogress>
+	roundprogress:画不同的圆形进度条
+包含以下包：
+	com.miracle.roundprogress.activity.roundprogressbar
+		
+===================================================================================		
+TelephonyManager
+	<telephony>
+	增加了电话管理相关代码（可以获取小区码）;
+包含以下包:
+	com.miracle.telephony.activity.telephony
+	activity_telephony_manager.xml
+	include_main_telephony_manager.xml
+	
+注意：需要加权限	
+===================================================================================	
+Water<water>
+	增加wifi水波纹;
+包含以下包:
+	com.miracle.water.activity.water
+	activity_water_ripple.xml
+	include_main_water_ripple.xml
+	
+===================================================================================	
+wheel
+	<wheel>
+	时间选择：没用用到wheelView，实现了wheel功能
+包含以下包：
+	com.miracle.wheel.activity.timeselect //滚轮自定义view，实现滚轮的activity
+		
+	用到WheelView方法的代码可参考网盘中的代码,目录：所有文件\E盘\android_code\interface_code\wheelView\WheelViewDemo
+		
+====================================================================================		
+wlan<wlan>
+	搜索并连接网络功能
+包含以下包：
+	com.miracle.wlan.activity.wlan
+	include_main_wlan.xml
+	wlan_activity_wlan.xml
+	wlan_listview_item.xml
+====================================================================================		
+====================================================================================		
+====================================================================================
+		
+************************************************************************************
+**版本更新说明																		  **
+************************************************************************************
+20160317V0.01版本
+	1.增加版本号的显示
+	2.增加了电话管理相关代码（可以获取小区码）;com.miracle.activity.telephony
+
+====================================================================================
+20160324V0.02版本
+  	1.修改电话管理按键为电话管理（小区码）;com.miracle.activity.telephony
+  	2.增加网络连接与否的判断;com.miracle.activity.netjudge
+  	3.增加水波纹;com.miracle.activity.water
+  	4.增加ORMlite数据库存储
+
+====================================================================================		
+20160329V0.03版本
+	1.增加netjudge在手机界面显示网络是否连接
+	2.增加方法：isWifi
+	3.手机界面增加显示mobile是否连接
+	4.增加反编译功能(为完成)
+  160330V0.03a版本	
+	1.增加了连接判断代码
+	2.修改了版本号
+20160510V0.04版本
+	1.增加显示网络上的图片的activity	
+	2.考虑到功能块太多，不知道哪些包是一个功能块，所以重新修改包名
+	20160512V0.04a版本
+	1.增加显示网络上的图片的activity(OK)
+====================================================================================		
+20160531V0.05版本
+	1.增加wlan
+20160613V0.05a版本
+	1.增加了扫描获取wifi信息并通过listview显示(OK)
+====================================================================================		
+====================================================================================		
+====================================================================================		
+		
+	
+	

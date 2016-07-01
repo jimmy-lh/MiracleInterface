@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- yt2glu -->
+    <color name="Black">#000000</color> <!-- 黑色 -->
+    <color name="page_title_color">#0072BB</color>
+    <color name="CornflowerBlue">#6495ED</color> <!-- 车矢菊蓝 -->
+    <!-- end -->
+
+
+    <!-- listview -->
+    <color name="remind_add_view_text">#FF2272BB</color>
+    <color name="line_rim">#C2C3C7</color>
+    <!-- end -->
+
+
+    <!-- expandable -->
+    <color name="Grey">#BEBEBE</color>
+    <color name="LightGray">#D3D3D3</color>
+    <!-- end -->
+
+
+    <!-- wlan -->
+    <color name="color_txt_wlan">#EE888888</color>
+    <color name="White">#FFFFFF</color>
+    <!-- end -->
+
+</resources>

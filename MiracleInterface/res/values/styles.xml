@@ -1,0 +1,82 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- yt2glu -->
+    <style name="page_title">
+        <item name="android:layout_height">38dp</item>
+        <item name="android:background">@color/page_title_color</item>
+    </style>
+
+    <style name="yt2_value_num_font">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+    <style name="yt2_value_font">
+        <item name="android:textSize">25sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">@color/CornflowerBlue</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+    <style name="temp_name_font">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+    <style name="temp_value_font">
+        <item name="android:textSize">25sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">@color/CornflowerBlue</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+    <style name="temp_font">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="mode_check_font">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    <!-- end -->
+
+
+    <!-- listview -->
+    <!-- 黑线边框   @drawable/target_input_bg 提醒时间保存的控件边框 -->
+    <style name="bg_rim_remind_add">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/more_menu_bg</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <!-- end -->
+
+</resources>

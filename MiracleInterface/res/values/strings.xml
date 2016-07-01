@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_version">软件版本V0.05a</string>
+    <string name="app_name">MiracleInterface</string>
+    <string name="interface_explain">接口说明</string>
+    <string name="time_select">时间选择 TimeSelect</string>
+    <string name="yt2glu">血糖测试版 yt2glu</string>
+    <string name="listview">列表菜单 listview</string>
+    <string name="expandable">分组固定列表 listview</string>
+    <string name="roundprogress">圆形进度圈 roundprogress</string>
+    <string name="telephony_manager">电话管理(小区码) telephonyManager</string>
+    <string name="net_judge">网络连接状态 netJudge</string>
+    <string name="water_ripple">水波纹 waterRipple</string>
+    <string name="test_ormlite">数据库 ORMLite</string>
+    <string name="net_image">网络图片 NetImage</string>
+    <string name="wlan">网络 WLan</string>
+
+    <!-- yt2glu -->
+    <string name="error_configuration">Please configure your serial port first.</string>
+    <string name="error_security">You do not have read/write permission to the serial
+		port.</string>
+    <string name="error_unknown">The serial port can not be opened for an unknown
+		reason.</string>
+    <string name="hint_version">软件版本:v0.01</string>
+    <string name="hint_trigger">触发</string>
+    <string name="hint_disabled">试纸已失效</string>
+    <string name="hint_glu_high">血糖值太高</string>
+    <string name="hint_glu_low">血糖值太低</string>
+    <string name="hint_temp_high">温度超标</string>
+    <string name="hint_batt">电池电压不足</string>
+    <string name="hint_start">试纸插入开机错误</string>
+    <string name="sn">SN</string>
+    <string name="temp">温度</string>
+    <string name="time">时间</string>
+    <string name="temp_unit">&#176;C</string>
+    <string name="value">血糖值</string>
+    <string name="value_unit">mmol/L</string>
+    <string name="value_unit_mg">mg/dl</string>
+    <string name="mode1">血液模式</string>
+    <string name="mode2">值控模式</string>
+    <string name="mode3">电阻试片模式</string>
+    <!-- end -->
+
+
+    <!-- listview -->
+    <string name="listview_add_item">增加Item</string>
+    <!-- end -->
+
+</resources>
