@@ -15,6 +15,7 @@
     <string name="test_ormlite">数据库 ORMLite</string>
     <string name="net_image">网络图片 NetImage</string>
     <string name="wlan">网络 WLan</string>
+    <string name="dialog_set">对话窗dialog_set</string>
 
     <!-- yt2glu -->
     <string name="error_configuration">Please configure your serial port first.</string>

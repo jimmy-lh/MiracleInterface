@@ -1,6 +1,7 @@
 package com.miracle.activity;
 
 import com.miracle.activity.yt2glu.ReceiveActivity;
+import com.miracle.commonlist.activity.dialogset.MyDialogActivity;
 import com.miracle.commonlist.activity.listview.ListViewActivity;
 import com.miracle.expandable.activity.expandable.ExpandableActivity;
 import com.miracle.netimage.activity.netimage.NetImageActivity;
@@ -34,6 +35,7 @@ public class MyMainActivity extends Activity implements OnClickListener {
 	private Button mButtonTestOrmlite;
 	private Button mButtonNetImage;
 	private Button mButtonWLan;
+	private Button btn_dialog_set;
 
 	/**
 	 * 调用此活动的类需要用此方法调用此活动
@@ -89,6 +91,9 @@ public class MyMainActivity extends Activity implements OnClickListener {
 
 		mButtonWLan = (Button) findViewById(R.id.btn_wlan);
 		mButtonWLan.setOnClickListener(this);
+
+		btn_dialog_set = (Button) findViewById(R.id.btn_dialog_set);
+		btn_dialog_set.setOnClickListener(this);
 	}
 
 	@Override
@@ -108,6 +113,12 @@ public class MyMainActivity extends Activity implements OnClickListener {
 		 */
 		case R.id.btn_net_judge:
 			NetJudgeActivity.actionStart(this, 0);
+			break;
+		/**
+		 * dialog_set
+		 */
+		case R.id.btn_dialog_set:
+			MyDialogActivity.actionStart(this, 0);
 			break;
 		/**
 		 * listview

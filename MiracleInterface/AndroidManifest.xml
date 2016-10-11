@@ -70,6 +70,8 @@
         </activity>
         <activity android:name="com.miracle.wlan.activity.wlan.WLanActivity" >
         </activity>
+        <activity android:name="com.miracle.commonlist.activity.dialogset.MyDialogActivity" >
+        </activity>
     </application>
 
 </manifest>

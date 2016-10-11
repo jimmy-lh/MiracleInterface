@@ -23,6 +23,13 @@
                 android:text="ConnectivityManager" />
 
             <include layout="@layout/include_main_net_judge" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DialogSet" />
+
+            <include layout="@layout/include_main_dialog_set" />
 
             <TextView
                 android:layout_width="wrap_content"
